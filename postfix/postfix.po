@@ -58,7 +58,7 @@ msgstr "Pasang postfix meskipun di kernel yang tidak mendukung?"
 #. Description
 #: ../templates:3001
 msgid "Postfix uses features that are not found in kernels prior to 2.6. If you proceed with the installation, Postfix will not run."
-msgstr ""
+msgstr "POstfix menggunakan fitur yang ditemukan di kernel 2.6. Jika Anda melanjutkan instalasi, Postfix tidak akan jalan."
 
 #. Type: boolean
 #. Description
@@ -88,7 +88,7 @@ msgstr "Benahi masukan tlsmgr di master.cf untuk pembaharuan?"
 #. Description
 #: ../templates:5001
 msgid "Postfix version 2.2 has changed the invocation of tlsmgr."
-msgstr ""
+msgstr "Postfix versi 2.2 telah mengubah imbauan/invokasi tlsmgr"
 
 #. Type: boolean
 #. Description
@@ -106,19 +106,19 @@ msgstr "Abaikan masukan hostname yang tidak tepat?"
 #. Description
 #: ../templates:6001
 msgid "The string '${enteredstring}' does not follow RFC 1035 and does not appear to be a valid IP address."
-msgstr ""
+msgstr "String '${enteredstring}' tidak mengikuti RFC 1035 dan nampaknya bukan alamat IP yang valid."
 
 #. Type: boolean
 #. Description
 #: ../templates:6001
 msgid "RFC 1035 states that 'each component must start with an alphanum, end with an alphanum and contain only alphanums and hyphens. Components must be separated by full stops.'"
-msgstr ""
+msgstr "RFC 1035 menyatakan bahwa 'setiap komponen harus dimulai dengan sebuah alphanumerik, berakhir dengan sebuah alphanumerik dan berisi alphanumerik saja dan tanda hubung. Komponen harus dipisahkan oleh full stops.'"
 
 #. Type: boolean
 #. Description
 #: ../templates:6001
 msgid "Please choose whether you want to keep that choice anyway."
-msgstr ""
+msgstr "Silahkan pilih apakah akan tetap memilihnya."
 
 #. Type: select
 #. Choices
@@ -130,7 +130,7 @@ msgstr ""
 #. this will break the choices shown to users
 #: ../templates:7001
 msgid "No configuration"
-msgstr ""
+msgstr "Tanpa konfigurasi"
 
 #. Type: select
 #. Choices
@@ -142,7 +142,7 @@ msgstr ""
 #. this will break the choices shown to users
 #: ../templates:7001
 msgid "Internet Site"
-msgstr ""
+msgstr "Situs Internet"
 
 #. Type: select
 #. Choices
@@ -154,7 +154,7 @@ msgstr ""
 #. this will break the choices shown to users
 #: ../templates:7001
 msgid "Internet with smarthost"
-msgstr ""
+msgstr "Internet dengan smarthost"
 
 #. Type: select
 #. Choices
@@ -166,7 +166,7 @@ msgstr ""
 #. this will break the choices shown to users
 #: ../templates:7001
 msgid "Satellite system"
-msgstr ""
+msgstr "Sistem satelit"
 
 #. Type: select
 #. Choices
@@ -178,19 +178,19 @@ msgstr ""
 #. this will break the choices shown to users
 #: ../templates:7001
 msgid "Local only"
-msgstr ""
+msgstr "Hanya lokal"
 
 #. Type: select
 #. Description
 #: ../templates:7002
 msgid "General type of mail configuration:"
-msgstr ""
+msgstr "Tipe umum konfigurasi email:"
 
 #. Type: select
 #. Description
 #: ../templates:7002
 msgid "Please select the mail server configuration type that best meets your needs."
-msgstr ""
+msgstr "Silahkan pilih tipe konfigurasi server mail yang sesuai kebutuhan Anda."
 
 #. Type: select
 #. Description
@@ -213,7 +213,7 @@ msgstr ""
 #. Description
 #: ../templates:8001
 msgid "Postfix not configured"
-msgstr ""
+msgstr "Postfix belum dikonfigurasi"
 
 #. Type: error
 #. Description

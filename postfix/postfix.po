@@ -34,7 +34,7 @@ msgstr "Postfix versi 2.3.3-2 dan seterusnya membutuhkan perubahan di main.cf. K
 #. Description
 #: ../templates:1001
 msgid "Failure to fix this will result in a broken mailer. Decline this option to abort the upgrade, giving you the opportunity to add this configuration yourself. Accept this option to automatically set mydomain based on the FQDN of the machine."
-msgstr ""
+msgstr "Kegagalan perbaikan akan mengakibatkan mailer rusak. Tolak pilihan ini untuk membatalkan pemutakhiran, memberikan Anda kesempatan untuk menambah konfigurasi Anda sendiri. Terima pilihan ini untuk mengatur mydomain secara otomatis berdasarkan FQDN dari mesin."
 
 #. Type: boolean
 #. Description
@@ -46,7 +46,7 @@ msgstr "masukkan masukan 'sqlite' ke dynamicmaps.cf?"
 #. Description
 #: ../templates:2001
 msgid "Postfix version 2.9 adds sqlite support to maps, but your dynamicmaps.cf does not reflect that.  Accept this option to add support for sqlite maps."
-msgstr ""
+msgstr "Postfix versi 2.9 menambahkan dukungan ke peta, tetapi dynamicmaps.cf Anda tidak mencerminkan hal itu. Terima pilihan ini untuk menambah dukungan ke peta sqlite."
 
 #. Type: boolean
 #. Description
@@ -76,7 +76,7 @@ msgstr "Postfix versi 2.4 membutukan masukan cobalagi dimasukkan ke master.cf."
 #. Description
 #: ../templates:4001
 msgid "Failure to fix this will result in a broken mailer. Decline this option to abort the upgrade, giving you the opportunity to add this configuration yourself. Accept this option to automatically make master.cf compatible with Postfix 2.4 in this respect."
-msgstr ""
+msgstr "Kegagalan perbaikan akan mengakibatkan mailer rusak. Tolak pilihan ini untuk membatalkan pemutakhiran, memberikan Anda kesempatan untuk menambah konfigurasi Anda sendiri. Terima pilihan ini untuk membuat master.cf secara otomatis yang kompatibel dalam hal ini dengan Posfix 2.4."
 
 #. Type: boolean
 #. Description
@@ -94,7 +94,7 @@ msgstr "Postfix versi 2.2 telah mengubah imbauan/invokasi tlsmgr"
 #. Description
 #: ../templates:5001
 msgid "Failure to fix this will result in a broken mailer. Decline this option to abort the upgrade, giving you the opportunity to add this configuration yourself. Accept this option to automatically make master.cf compatible with Postfix 2.2 in this respect."
-msgstr ""
+msgstr "Kegagalan perbaikan akan mengakibatkan mailer rusak. Tolak pilihan ini untuk membatalkan pemutakhiran, memberikan Anda kesempatan untuk menambah konfigurasi Anda sendiri. Terima pilihan ini untuk membuat master.cf secara otomatis yang kompatibel dalam hal ini dengan Posfix 2.2."
 
 #. Type: boolean
 #. Description
@@ -208,6 +208,17 @@ msgid ""
 " Local only:\n"
 "  The only delivered mail is the mail for local users. There is no network."
 msgstr ""
+" Tanpa konfigurasi:\n"
+"  Harusnya dipilih agar konfigurasi saat ini tak berubah.\n"
+" Situs internet:\n"
+"  Surel dikirim dan diterima langsung melalui SMTP.\n"
+" Internet dengan smarthost:\n"
+"  Email diterima langsung melalui SMTP atau dengan menjalankan utilitas\n"
+"  seperti fetchmail. Surel keluar terkirim dengan menggunakan smarthost.\n"
+" Sistem satelit:\n"
+"  Sebuah surel terkirim ke mesin lain, disebut sebuah 'smarthost', untuk pengiriman.\n"
+" Hanya lokal:\n"
+"  Surel yang terkirim hanya untuk pengguna lokal. Tanpa jaringan."
 
 #. Type: error
 #. Description
@@ -223,12 +234,15 @@ msgid ""
 " - Editing /etc/postfix/main.cf to your liking;\n"
 " - Running '/etc/init.d/postfix start'."
 msgstr ""
+"Anda telah memilih 'Tanpa Konfigurasi'. Postfix tidak akan dikonfigurasi dan tidak akan dijalankan secara bawaan. Silahkan jalankan 'dpkg-reconfigure postfix' di masa mendatang, atau silahkan konfigurasi sendiri dengan:\n"
+" - Mengubah /etc/postfix/main.cf sesuai keinginan Anda;\n"
+" - Menjalankan '/etc/init.d/postfix start'."
 
 #. Type: string
 #. Description
 #: ../templates:9001
 msgid "System mail name:"
-msgstr ""
+msgstr "Nama mail sistem:"
 
 #. Type: string
 #. Description

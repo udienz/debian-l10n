@@ -1,8 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# postfix Debconf translations for Indonesian.
+# Copyright (C) 2007 Software in the Public Interest, SPI Inc.
+# This file is distributed under the same license as the postfix package.
+# proyek penerjemahan Bahasa Indonesia.
+#
+# Sebelum menerjemahkan silakan melihat-lihat ke:
+# - /usr/share/doc/po-debconf/README-trans atau
+#   http://www.debian.org/intl/l10n/po-debconf/README-trans
+# - http://www.debian.org/international/l10n/po-debconf/id
+# Silakan menghubungi tim penerjemah Debian Indonesia bila ada pertanyaan,
+# kritik, dan saran ke debian-l10n-indonesian@lists.debian.org
 # Mahyuddin Susanto <udienz@gmail.com>, 2012
-# Samsul Ma'arif <mail@samsul.web.id>, 2012 
+# Samsul Ma'arif <mail@samsul.web.id>, 2012
 #
 msgid ""
 msgstr ""

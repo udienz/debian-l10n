@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Mahyuddin Susanto <udienz@gmail.com>, 2012
+# Samsul Ma'arif <mail@samsul.web.id>, 2012 
 #
 msgid ""
 msgstr ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: postfix@packages.debian.org\n"
 "POT-Creation-Date: 2012-05-30 22:56-0600\n"
 "PO-Revision-Date: 2012-11-29 09:47+0700\n"
-"Last-Translator: Mahyuddin Susanto <udienz@gmail.com>\n"
+"Last-Translator: Samsul Ma'arif <mail@samsul.web.id>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists.debian.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -248,7 +249,7 @@ msgstr "Nama mail sistem:"
 #. Description
 #: ../templates:9001
 msgid "The \"mail name\" is the domain name used to \"qualify\" _ALL_ mail addresses without a domain name. This includes mail to and from <root>: please do not make your machine send out mail from root@example.org unless root@example.org has told you to."
-msgstr ""
+msgstr "\"nama surel\" adalah nama domain yang digunakan untuk \"memenuhi\" _SEMUA_ alamat surel tanpa nama domain. Ini menyertakan surel ke dan dari <root>: tolong jangan buat mesin Anda mengirim surel ke luar dari root@example.org kecuali root@example.org mengatakan demikian."
 
 #. Type: string
 #. Description
@@ -286,7 +287,7 @@ msgstr "Relay host SMTP (kosongkan bila tak ada):"
 #. Description
 #: ../templates:11001
 msgid "Please specify a domain, host, host:port, [address] or [address]:port. Use the form [destination] to turn off MX lookups. Leave this blank for no relay host."
-msgstr ""
+msgstr "Silahkan tentukan sebuah domain, host, host:port, [alamat] atau [alamat]:port. Gunakan form [tujuan] untuk mematikan MX lookups. Biarkan kosong untuk tidak merelay host."
 
 #. Type: string
 #. Description
@@ -298,25 +299,25 @@ msgstr "Jangan tentukan lebih dari satu host."
 #. Description
 #: ../templates:11001
 msgid "The relayhost parameter specifies the default host to send mail to when no entry is matched in the optional transport(5) table. When no relay host is given, mail is routed directly to the destination."
-msgstr ""
+msgstr "Parameter relayhost menentukan host default untuk mengirim surel ketika tidak ada entry yang cocok dalam pilihan transportasi tabel (5). Bila tidak ada host relay diberikan, surel akan diarahkan langsung ke tujuan."
 
 #. Type: boolean
 #. Description
 #: ../templates:12001
 msgid "Use procmail for local delivery?"
-msgstr ""
+msgstr "Gunakan procmail untuk pengiriman lokal?"
 
 #. Type: boolean
 #. Description
 #: ../templates:12001
 msgid "Please choose whether you want to use procmail to deliver local mail."
-msgstr ""
+msgstr "Silahkan pilih apakah Anda ingin menggunakan procmail untuk mengirimkan surel lokal."
 
 #. Type: boolean
 #. Description
 #: ../templates:12001
 msgid "Note that if you use procmail to deliver mail system-wide, you should set up an alias that forwards mail for root to a real user."
-msgstr ""
+msgstr "Catatan jika Anda menggunakan procmail untuk mengirimkan surel system-wide, Anda harus mengatur alias yang meneruskan surel untuk root ke pengguna nyata."
 
 #. Type: select
 #. Choices
@@ -340,13 +341,13 @@ msgstr "ipv4"
 #. Description
 #: ../templates:13002
 msgid "Internet protocols to use:"
-msgstr ""
+msgstr "Protokol internet yang digunakan:"
 
 #. Type: select
 #. Description
 #: ../templates:13002
 msgid "By default, whichever Internet protocols are enabled on the system at installation time will be used. You may override this default with any of the following:"
-msgstr ""
+msgstr "Secara default, protokol Internet manapun yang diaktifkan pada waktu instalasi sistem akan digunakan. Anda boleh mengesampingkan defaultnya dengan yang dibawah ini: "
 
 #. Type: select
 #. Description
@@ -356,24 +357,27 @@ msgid ""
 " ipv6: listen only on IPv6 addresses;\n"
 " ipv4: listen only on IPv4 addresses."
 msgstr ""
+" all : gunakan keduanya alamat IPv4 dan IPv6;\n"
+" ipv6: hanya dengarkan pada alamat IPv6;\n"
+" ipv4: hanya dengarkan pada alamat IPv4."
 
 #. Type: string
 #. Description
 #: ../templates:14001
 msgid "Local address extension character:"
-msgstr ""
+msgstr "Karakter ekstensi alamat lokal:"
 
 #. Type: string
 #. Description
 #: ../templates:14001
 msgid "Please choose the character that will be used to define a local address extension."
-msgstr ""
+msgstr "Silahkan pilih karakter yang akan digunakan untuk mendefinisi ekstensi alamat lokal."
 
 #. Type: string
 #. Description
 #: ../templates:14001
 msgid "To not use address extensions, leave the string blank."
-msgstr ""
+msgstr "Agar tidak menggunakan ekstensi alamat, biarkan kosong."
 
 #. Type: error
 #. Description

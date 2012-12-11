@@ -60,7 +60,7 @@ msgstr "Mohon menyediakan kata sandi yang dibuat untuk pengguna \"icingaadmin\".
 #. Description
 #: ../icinga-cgi.templates:3001
 msgid "This is the username and password to use when connecting to the Icinga server after completing the configuration. If you do not provide a password, you will have to configure access to Icinga manually later on."
-msgstr "Ini adalah nama pengguna dan kata sandi yang digunakan untuk tersambung dengan servericinga setelah pegaturan selesai. Jika anda tidak menyediakan kata sandi,setelah itu anda akan mengatur manual akses ke Icinga manual."
+msgstr "Ini adalah nama pengguna dan kata sandi yang digunakan untuk tersambung dengan server icinga setelah pegaturan selesai. Jika anda tidak menyediakan kata sandi,setelah itu anda akan mengatur manual akses ke Icinga manual."
 
 #. Type: password
 #. Description
@@ -96,7 +96,7 @@ msgstr "Gunakan perintah external dengan Icinga?"
 #. Description
 #: ../icinga-common.templates:2001
 msgid "As a security feature, Icinga in its default configuration does not look for external commands. Enabling external commands will give the web server write access to the nagios command pipe and is required if you want to be able to use the CGI command interface."
-msgstr "Sebagai fitur keamanan, Icinga secara bawaan tidak akan menggunakan perintah external.MEngaktifkan perintah external akan memberikan server web untuk hak akses menulis keperintah pipe nagios dan ini dibutuhkan jika anda menghendaki untuk menggunakanantar muka perintah CGI."
+msgstr "Sebagai fitur keamanan, Icinga secara bawaan tidak akan menggunakan perintah external. Mengaktifkan perintah external akan memberikan server web untuk hak akses menulis keperintah pipe nagios dan ini dibutuhkan jika anda menghendaki untuk menggunakanantar muka perintah CGI."
 
 #. Type: boolean
 #. Description
